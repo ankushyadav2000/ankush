@@ -1,0 +1,95 @@
+@media (min-width:992px){
+.heading{
+    text-align: center;
+    color: wheat;
+    font-size: 60px;
+}
+
+div{
+    float:left;
+    
+}
+.box{
+    border: 1px solid black;
+    width: 30%;
+    margin: 1.5%;
+    background-color: wheat;
+}
+div .subh{
+    border: 1px solid black;
+    width:33%;
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+    background-color: cadetblue;
+    float:right;
+}
+p{
+    margin: 35px;
+}
+}
+@media (min-width:768px) and (max-width:991px){
+    .heading{
+        text-align: center;
+        color: wheat;
+        font-size: 60px;
+    }
+    
+    div{
+        border: 1px solid black;
+        background-color: wheat;
+    }
+    
+    
+    #box1,#box2{
+        width: 49%;
+        float: left;
+        margin-left: 0.5%;
+        margin-bottom: 2%;
+    }
+    #box3{
+        clear: left;
+        width:98.7%;
+        margin: 0.5%;
+        margin-top: 2%;
+    }
+    div .subh{
+        border: 1px solid black;
+        width:33%;
+        margin: 0;
+        font-size: 25px;
+        text-align: center;
+        background-color: cadetblue;
+        float:right;
+    }
+    p{
+        margin-top:28px ;
+    }
+}
+@media (min-width:0px) and (max-width:767px){
+    .heading{
+        text-align: center;
+        color: wheat;
+        font-size: 50px;
+    }
+    
+    div{
+        border: 1px solid black;
+        background-color: wheat;
+    }
+    div .subh{
+        border: 1px solid black;
+        width:33%;
+        margin: 0;
+        font-size: 25px;
+        text-align: center;
+        background-color: cadetblue;
+        float:right;
+    }
+    .box{
+        margin: 5%;
+    }
+    p{
+        margin-top:28px ;
+    }
+}
